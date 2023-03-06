@@ -1,7 +1,7 @@
 {
   "name": "umi-plugin-cmdk",
   "author": "crazylxr",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "在 umi 项目里可以快速搜索菜单",
   "repository": "https://github.com/crazylxr/plugin-umi-cmkd",
   "main": "dist/cjs/index.js",
@@ -24,11 +24,13 @@
   "files": [
     "dist"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@umijs/route-utils": "^4.0.1",
     "ahooks": "^3.7.5",
     "antd": "^5.2.3",
-    "cmdk": "^0.2.0",
+    "cmdk": "^0.2.0"
+  },
+  "devDependencies": {
     "father": "^4.0.0",
     "umi": "^4.0.55",
     "@types/node": "^18.0.0",
