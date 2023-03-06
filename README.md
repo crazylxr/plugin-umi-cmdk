@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-pnpm i umi-plugin-demo
+pnpm i umi-plugin-cmdk
 ```
 
 ## Usage
