@@ -14,7 +14,7 @@ Configure in `.umirc.ts`,
 
 ```js
 export default {
-  plugins: [["umi-plugin-cmdk"]],
+  plugins: ["umi-plugin-cmdk"],
 };
 ```
 
