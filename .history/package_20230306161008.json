@@ -1,0 +1,30 @@
+{
+  "name": "umi-plugin-cmdk",
+  "author": "crazylxr",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "authors": {
+    "name": "crazylxr",
+    "email": "1076629390@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@umijs/route-utils": "^4.0.1",
+    "ahooks": "^3.7.5",
+    "antd": "^5.2.3",
+    "cmdk": "^0.2.0",
+    "father": "^4.0.0",
+    "umi": "^4.0.55",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.0.0"
+  }
+}

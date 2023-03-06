@@ -1,0 +1,26 @@
+{
+  "name": "umi-plugin-demo",
+  "author": "潇见 <xiaojian.lj@antgroup.com>",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "authors": {
+    "name": "潇见 <xiaojian.lj@antgroup.com>",
+    "email": "xiaojian.lj@antgroup.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "father": "^4.0.0",
+    "umi": "^4.0.55",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.0.0"
+  }
+}
