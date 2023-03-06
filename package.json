@@ -1,14 +1,21 @@
 {
   "name": "umi-plugin-cmdk",
   "author": "crazylxr",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "在 umi 项目里可以快速搜索菜单",
+  "repository": "https://github.com/crazylxr/plugin-umi-cmkd",
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
   "scripts": {
     "dev": "father dev",
     "build": "father build"
   },
-  "keywords": [],
+  "keywords": [
+    "umi",
+    "plugin",
+    "cmdk",
+    "react"
+  ],
   "authors": {
     "name": "crazylxr",
     "email": "1076629390@qq.com"
