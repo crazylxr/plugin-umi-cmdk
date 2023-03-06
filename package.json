@@ -1,7 +1,7 @@
 {
   "name": "umi-plugin-cmdk",
   "author": "crazylxr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "在 umi 项目里可以快速搜索菜单",
   "repository": "https://github.com/crazylxr/plugin-umi-cmkd",
   "main": "dist/cjs/index.js",
