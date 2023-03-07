@@ -1,11 +1,28 @@
-# umi-plugin-cmdk
+# Umi-plugin-cmdk
 
-一个通过快捷键打开搜索面板的插件,搜索面板默认可以搜索菜单，也可以定制其他的链接。
+一个通过快捷键打开搜索面板的插件, 搜索面板默认可以搜索菜单，也可以定制其他的链接。
+
+![Pasted image 20230307175305](https://imgs.taoweng.site/Pasted%20image%2020230307175305.png)
 
 ## Install
 
+Npm
+
 ```bash
-pnpm i umi-plugin-cmdk
+npm install umi-plugin-cmdk
+```
+
+Yarn
+
+
+```bash
+yarn add umi-plugin-cmdk
+```
+
+Pnpm
+
+```bash
+pnpm add umi-plugin-cmdk
 ```
 
 ## Usage
@@ -20,7 +37,7 @@ export default {
 
 ## Options
 
-可以通过配置文件 config/config.ts 中的 layout 属性开启插件。
+可以通过配置文件 config/config. Ts 中的 layout 属性开启插件。
 
 ```typescript
 import { defineConfig } from 'umi';
@@ -48,7 +65,7 @@ export default defineConfig({
 
 弹框搜索框的 `Placeholder`
 
-### empty
+### Empty
 - Type: `string`
 - Default: `迷路了! ! !` 
 
@@ -60,12 +77,15 @@ export default defineConfig({
 
 用于配置哪些菜单需要置顶，置顶之后会放到 suggestion 组内，同时在 menu 组下面就会隐藏。
 
+![Pasted image 20230307180853](https://imgs.taoweng.site/Pasted%20image%2020230307180853.png)
+
 ### groups
 
 - Type: `Group`
 - Default： 无
 
 出了菜单以外，还想配置更多的跳转链接，可以用这个属性进行扩展更多的分组。
+![Pasted image 20230307181335](https://imgs.taoweng.site/Pasted%20image%2020230307181335.png)
 
 类型如下：
 
@@ -82,6 +102,10 @@ interface Group {
   items: Item[];
 }
 ```
+
+## TODO
+- [ ] 更多的主题切换
+- [ ] 增加一个静态站点演示，或者整一个每个属性配置的 gif
 
 ## LICENSE
 

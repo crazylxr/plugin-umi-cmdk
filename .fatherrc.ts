@@ -1,5 +1,6 @@
 import { defineConfig } from 'father';
 
 export default defineConfig({
-  cjs: {},
+  cjs: { output: 'dist' },
+  esm: { output: 'es' },
 });
