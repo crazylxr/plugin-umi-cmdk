@@ -37,7 +37,7 @@ export default {
 
 ## Options
 
-可以通过配置文件 config/config. Ts 中的 layout 属性开启插件。
+可以通过配置文件 `.umirc.ts` 中的 cmdk 属性开启插件。
 
 ```typescript
 import { defineConfig } from 'umi';
