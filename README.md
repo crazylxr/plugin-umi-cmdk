@@ -65,7 +65,7 @@ export default defineConfig({
 
 弹框搜索框的 `Placeholder`
 
-### Empty
+### empty
 - Type: `string`
 - Default: `迷路了! ! !` 
 
